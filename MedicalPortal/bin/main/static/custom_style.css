@@ -1,0 +1,241 @@
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+body{
+  margin: 0;
+}
+h1{
+  font-size: 33pt;
+  margin-top: 70px;
+
+
+}
+#container1{
+  min-height: 100vh;
+  display: flex;
+
+}
+
+.leftSide{
+  width: 70vw;
+  background:url("images/registration_background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.rightSide{
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 130px;
+
+}
+.log{
+  display: flex;
+  align-items: center;
+}
+.logo-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+
+  width: 90%;
+}
+
+.button-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 300px;
+  height: 30px;
+  margin: 30px auto;
+  box-shadow: 0 0 20px 5px #CBA36D;
+  border-radius: 30px;
+}
+
+.btn1{
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+}
+.btn2{
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.active{
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  background: linear-gradient(to right, #CBA36D, #E2AC6B);
+  border-radius: 30px;
+  transition: 0s;
+}
+.active:hover{
+  background: linear-gradient(to left, #CBA36D, #E2AC6B);
+}
+
+
+.toggle-btn{
+  width: 150px;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  background: transparent;
+  align-items: center;
+}
+
+
+.input-group{
+  top: 10px;
+  width: 280px;
+  transition: .5s;
+}
+
+.input-field{
+  width: 100%;
+  padding: 10px 0 ;
+  margin: 5px 0;
+  border: 1px solid #999;
+  outline: none;
+  background: transparent;
+  border-radius: 30px;
+  padding-left: 20px;
+}
+
+
+.input-field:focus{
+  border: 1px solid #1DA1F2;
+}
+
+
+.submit-btn{
+  width: 100%
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  background: linear-gradient(to right, #CBA36D, #E2AC6B);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  transition: .5s;
+  width: 300px;
+  height: 40px;
+
+}
+.submit-btn:hover {
+  background: linear-gradient(to left, #CBA36D, #E2AC6B);
+}
+
+.check-box{
+  margin: 30px 10px 30px 0;
+
+}
+span{
+  color: #777;
+  font-size: 12px;
+  bottom: 68px;
+}
+
+ #singIn, #signUp{
+  display: none;
+}
+#singIn.show, #signUp.show{
+  display: block;
+  width: 280px;
+  margin-right: 30px
+}
+@media screen and (max-width: 1050px) {
+
+  .input-field{
+    width: 250px;
+  }
+  .submit-btn{
+    width: 280px;
+  }
+  #singIn.show, #signUp.show{
+    display: block;
+    width: 230px;
+    margin-right: 30px
+  }
+}
+@media screen and (max-width: 720px) {
+
+  #container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+
+  }
+  .input-field{
+    width: 250px;
+  }
+  .submit-btn{
+    width: 280px;
+  }
+
+    .rightSide{
+      width: auto;
+      height: 0vh;
+      background:url("images/registration_background.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      margin-bottom: : 450px;
+    }
+  .leftSide{
+  width: auto;
+  height: 60vh;
+  }
+  .logo-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 450px;
+    width: 80%;
+  }
+  .submit-btn{
+    margin-bottom: 20px;
+  }
+
+
+
+  #singIn.show, #signUp.show{
+    display: block;
+    width: 230px;
+    margin-right: 30px
+  }
+
+
+  .btn-circle.btn-sm {
+              width: 30px;
+              height: 30px;
+              padding: 6px 0px;
+              border-radius: 15px;
+              font-size: 8px;
+              text-align: center;
+          }
+          .btn-circle.btn-md {
+              width: 50px;
+              height: 50px;
+              padding: 7px 10px;
+              border-radius: 25px;
+              font-size: 10px;
+              text-align: center;
+          }
+          .btn-circle.btn-xl {
+              width: 70px;
+              height: 70px;
+              padding: 10px 16px;
+              border-radius: 35px;
+              font-size: 12px;
+              text-align: center;
+          }
+
+}

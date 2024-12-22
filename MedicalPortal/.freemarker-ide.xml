@@ -1,0 +1,7 @@
+<config>
+	<context-values>
+	</context-values>
+	<macro-library>
+		<entry namespace="signup_info" path="src/main/resources/templates/signup_info.ftl" project="MedicalPortal" type="file"/>
+	</macro-library>
+</config>

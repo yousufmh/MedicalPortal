@@ -1,0 +1,61 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: 'gu_font';
+  border: 1px solid  #ddd;
+  font-size: 10pt;
+  direction: rtl;
+  margin: 0 auto;
+}
+
+.table2 {
+  border-style:none;
+  padding:0px;
+}
+
+th {
+  background-color: #dddddd;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+
+.subject {
+  text-align: center;
+  border-style: none;
+  padding:0px;
+}
+
+td{
+  padding: 3px;
+  border: 1px solid  #ddd;
+}
+
+@font-face{
+font-family: 'gu_font';
+src: url('file:///E:policy/static/fonts/Helvetica.ttf');
+}
+
+.image {
+  width: 100%;
+  height:auto;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.header {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+div {
+  width: 100%;
+  margin: auto;
+  padding: 8px;
+}
