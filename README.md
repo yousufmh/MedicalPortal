@@ -1,2 +1,2 @@
 # MedicalPortal
- MedicalPortal for insurance company FluuStack System using Springboot and freemaker. 
+ MedicalPortal for insurance company FullStack System using Springboot and freemaker. 
